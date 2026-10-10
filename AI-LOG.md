@@ -8,13 +8,13 @@ Kept:
 - Sử dụng file ASSISTANT_BRIEF.md do Codex tạo, bao gồm function contract, business rules, các trường hợp lỗi, phạm vi file được phép chỉnh sửa, quy định không thêm dependencies, worked example và các lệnh kiểm tra.
 - Giữ lại những thay đổi cấu hình do Codex thực hiện nhằm đảm bảo Agent Harness và quality gates phù hợp với yêu cầu bài tập.
 Changed:
-- Không cho Agent chỉnh sửa file AI-LOG.md trong quá trình làm việc (chỉnh sửa yêu cầu trong AGENTS.md)
+- Bổ sung yêu cầu trong ASSISTANT_BRIEF.md: không chỉnh sửa AI-LOG.md trong nhiệm vụ implement; không bịa các chỉnh sửa, đề xuất bị từ chối, phần tự viết hoặc kết quả kiểm tra.
 Rejected:
 - Không sử dụng phương án fork starter repository do trợ lý đề xuất. Thay vào đó, sinh viên lựa chọn tạo một repository GitHub mới để dễ sử dụng.
 By hand:
 - Tự tạo repository github mới và cung cấp URL cho Codex để thực hiện kết nối
 
-## Thiết lập Quality Gates và Github Actions CI
+## 2026-10-10 - Thiết lập Quality Gates và Github Actions CI
 Tool: OpenAI Codex.
 Asked for: Yêu cầu Codex hướng dẫn thiết lập công cụ kiểm tra định dạng không sử dụng thư viện bên ngoài, cấu hình npm scripts và GitHub Actions CI để tự động kiểm tra chất lượng dự án.
 Kept:
@@ -31,7 +31,7 @@ Changed:None
 Rejected:None
 By hand: None
 
-## Bổ sung automated tests cho cartTotal
+## 2026-10-10 - Bổ sung automated tests cho cartTotal
 Tool: OpenAI Codex.
 
 Asked for: Bổ sung tests kiểm tra hành vi của cartTotal theo specification, giữ các tests hiện có, chạy kiểm tra và đọc diff.
