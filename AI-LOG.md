@@ -41,3 +41,16 @@ Kept: Bộ 20 tests do Codex bổ sung trong test/cart.test.js, kiểm tra subto
 Changed: None
 Rejected: None
 By hand: None
+
+
+## 2026-10-10 — Implement cartTotal theo specification
+
+Tool: OpenAI Codex.
+
+Asked for: Đọc AGENTS.md và ASSISTANT_BRIEF.md, implement cartTotal trong src/cart.js, giữ nguyên tests, không thêm dependencies, chạy npm run check và giải thích implementation.
+
+Kept: Implementation do Codex viết trong src/cart.js, gồm tính subtotal, VAT, shipping, xử lý giỏ rỗng, ném RangeError cho giá âm hoặc quantity không hợp lệ, và làm tròn kết quả cuối bằng Math.round. Codex đã đọc diff và chạy npm run check: format check pass, 22 tests pass, 0 fail.
+
+Changed: None
+Rejected: None
+By hand: None
