@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "format:check": "node scripts/check-format.js",
+    "check": "npm run format:check && npm test"
   }
 }
